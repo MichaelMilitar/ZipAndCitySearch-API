@@ -9,10 +9,9 @@ class ZipInfo extends Component {
       check: true,
       first: true,
       zipCode: "",
-      data: [
-            {
-                LocationText: "CityName",
-                State: "StateName",
+      data: [{
+                LocationText: "City",
+                State: "State",
                 Lat: "0",
                 Long: "0",
                 EstimatedPopulation: "0",
