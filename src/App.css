@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-subheader {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+}
+
+input[type=text], select {
+  width: 20%;
+  text-align: center;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: white; 
+  color: black; 
+  border: 1px solid #282c34;
+  border-radius: 4px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  display:block;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+
+
+.button:hover {
+  background-color: #414c61;
+  color: white;
+}
+
+.zipList {
+  display:block;
+  margin: 0 auto;
+  width: 20%;
+  color: white;
+  list-style-type: none;
+  background: #414c61;
+  border: 1px solid #282c34;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 2%;
+}
